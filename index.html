@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Travel Explorer</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search destinations...">
+            <button onclick="searchPlaces()">Search</button>
+            <button onclick="clearResults()">Clear</button>
+        </div>
+    </nav>
+    
+    <section id="home">
+        <div class="hero">
+            <h1>EXPLORE DREAM DESTINATION</h1>
+            <p>
+                It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, 
+                while pursuing the desired destination that captivates the heart and ignites a sense of wonder.
+            </p>
+            <button>Book Now</button>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="about-hero">
+            <h1>ABOUT US</h1>
+            <div class="about-content">
+                <p>
+                    Welcome to Our Company! We are a team of passionate individuals dedicated to providing 
+                    <strong>the best experience</strong> for people traveling to different destinations around the world. 
+                    Our mission is to <strong>putting our customers first</strong> and <strong>working together</strong> to achieve our goals.
+                </p>
+                <p>
+                    Our values include <strong>integrity, innovation, customer satisfaction, and teamwork.</strong> 
+                    Feel free to explore our website to learn more about what we offer!
+                </p>
+            </div>
+        </div>
+    
+        <div class="about-team">
+            <h2>Our Team</h2>
+            <div class="team">
+                <div class="member">
+                    <img src="images/john.jpg" alt="John Doe">
+                    <h3>John Doe</h3>
+                    <p>CEO</p>
+                    <button class="role-btn">CEO</button>
+                </div>
+                <div class="member">
+                    <img src="images/celina.jpg" alt="Celina Thomas">
+                    <h3>Celina Thomas</h3>
+                    <p>Team Lead</p>
+                    <button class="role-btn">Team Lead</button>
+                </div>
+                <div class="member">
+                    <img src="images/mike.jpg" alt="Mike Tyson">
+                    <h3>Mike Tyson</h3>
+                    <p>Delivery Head</p>
+                    <button class="role-btn">Delivery Head</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section id="results">
+        <h2>Recommendations</h2>
+        <div id="recommendation-list"></div>
+    </section>
+    
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>

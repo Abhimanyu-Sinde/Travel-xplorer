@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Bora Bora",
+      "category": "beach",
+      "description": "A beautiful tropical getaway with stunning lagoons and luxury resorts.",
+      "imageUrl": "https://example.com/bora-bora.jpg"
+    },
+    {
+      "name": "Machu Picchu",
+      "category": "mountain",
+      "description": "An ancient Incan city in the Andes Mountains of Peru.",
+      "imageUrl": "https://example.com/machu-picchu.jpg"
+    },
+    {
+      "name": "Santorini",
+      "category": "beach",
+      "description": "A breathtaking Greek island known for its whitewashed buildings and stunning sunsets.",
+      "imageUrl": "https://example.com/santorini.jpg"
+    },
+    {
+      "name": "Kyoto",
+      "category": "temple",
+      "description": "A historic city in Japan famous for its temples, gardens, and traditional wooden houses.",
+      "imageUrl": "https://example.com/kyoto.jpg"
+    }
+  ]
+  
